@@ -1,5 +1,5 @@
-const request = require('supertest');
 const app = require('../src/app');
+const request = require('supertest');
 
 describe('[GET]', () => {
   it('should be responds with hello world!', (done) => {

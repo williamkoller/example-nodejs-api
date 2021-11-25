@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/app.js",
     "test": "mocha ./tests/* --exit",
-    "test:watch": "mocha ./tests/* --watch",
+    "test:watch": "mocha ./tests/* -w --parallel",
     "coverage": "nyc --reporter=text mocha ./tests/* --exit"
   },
   "keywords": [],
