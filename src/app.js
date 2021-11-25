@@ -6,6 +6,10 @@ app.get('/', (_, response) => {
   response.send('Hello My Friend!');
 });
 
+app.get('/name', (_, response) => {
+  response.send({ name: 'William'});
+});
+
 app.listen(port, () => { console.log('Our App Is Up and running!') });
 
 module.exports = app;
